@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User : Izzati</title>
+
+    {% include "taskbar.html" %}
+    <link rel="stylesheet" href="/static/css/background.css">
+</head>
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="/static/video/us.mp4" type="video/mp4">
+    </video>
+    
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-1">
+                <button class="btn btn-lg text-danger" style="width: 100px; height: 100px;">
+                    <i class="bi bi-pc-display display-5"></i>
+                    <span class="small fs-6">Desktop</span>
+                </button>
+                <button class="btn btn-lg text-danger" style="width: 100px; height: 100px;">
+                    <i class="bi bi-folder display-5"></i>
+                    <span class="small fs-6">Directory</span>
+                </button>
+                <button class="btn btn-lg text-danger" style="width: 100px; height: 100px;">
+                    <i class="bi bi-trash display-5"></i>
+                    <span class="small fs-6">Hiccups</span>
+                </button>
+            </div> 
+
+            <div class="col-1 ms-auto">
+                <button class="btn btn-lg text-danger" style="width: 100px; height: 100px;">
+                    <i class="fas fa-brain display-5"></i>
+                    <span class="small fs-6">Memory</span>
+                </button>
+                <button class="btn btn-lg text-danger" style="width: 100px; height: 100px;">
+                    <i class="bi bi-heart-fill display-5"></i>
+                    <span class="small fs-6">Heart</span>
+                </button>
+            </div>
+        </div> 
+</body>
+</html>

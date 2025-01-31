@@ -1,0 +1,10 @@
+#bg-video {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    width: 30%;
+    height: auto;
+    transform: translate(-50%, -50%); /* Centers the video */
+    object-fit: cover; 
+    z-index: -1;
+}
